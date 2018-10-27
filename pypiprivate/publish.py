@@ -41,7 +41,7 @@ def build_index(title, items, index_type='root'):
     <h1>{{title}}</h1>
     {% endif -%}
     {% for item in items %}
-    <a href="{{item}}">{{item}}</a><br>
+    <a href="{{item}}/">{{item}}</a><br>
     {% endfor %}
 </body>
 </html>
